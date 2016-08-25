@@ -1,0 +1,22 @@
+
+Description = "Monokai"
+
+Default       = { Colour="#F8F8F2" }
+Canvas        = { Colour="#272822" }
+Number        = { Colour="#AE81FF" }
+Escape        = { Colour="#66D9EF" , Italic=true}
+String        = { Colour="#E6DB74" }
+BlockComment  = { Colour="#75715E" }
+StringPreProc = String
+LineComment   = BlockComment
+Operator      = Default
+LineNum       = BlockComment
+PreProcessor  = { Colour="#DEFA25" }
+Interpolation = Escape
+
+Keywords = {
+  { Colour="#66D9EF" , Italic=true},
+  { Colour="#F92672" },
+  { Colour="#A6E22E" },
+  { Colour="#25FAAC" },
+}
